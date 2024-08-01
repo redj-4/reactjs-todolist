@@ -1,15 +1,15 @@
-import TodoInput from "./TodoInput"
-import TodoList from "./TodoList"
+import TodoInput from "./TodoInput.jsx"
+import TodoList from "./TodoList.jsx"
 
 
 function App() {
   
 
   return (
-    <main>
+    <>
       <TodoInput/>
       <TodoList/>
-    </main>
+    </>
   )
 }
 
